@@ -18,6 +18,18 @@ if ($_SERVER["REQUEST_METHOD"]=="POST"){
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Login Form</title>
     <style type="text/css">
+        login {
+            width:230px;
+            margin:0;
+            padding:10px;
+            border:1px #CCC solid;
+        }
+        h2 {
+            text-align: center;
+        }
+        .login input {
+            padding:5px; margin:5px
+        }
     </style>
 </head>
 <body>
